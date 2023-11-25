@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/dmn_q&a.css">
+</head>
+<body>
+    <header>
+        <section class="h_one">
+            <article></article>
+            <article class="promotion">
+                <div></div>
+                <p>주변 매장의 프로모션을 확인해보세요!</p>
+            </article>
+            <article class="login">
+                <ul>
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                    <li><a href="">KOR ∨</a></li>
+                </ul>
+            </article>
+            <!-- <article class="iu"></article> -->
+        </section>
+    </header>
+    <section class="gnb">
+        <ul>
+            <li><a href="">메뉴</a></li>
+            <li><a href="">e-쿠폰</a></li>
+            <li><a href="">상품권 선물</a></li>
+            <li><a href="">이벤트·제휴</a></li>
+            <li><a href="">매장검색</a></li>
+            <li><a href="">가맹점 모집</a></li>
+            <li class="more"><a href="javascript:void(0);">더보기</a></li>
+        </ul>
+    </section>
+    <div class="moreClick">
+        <div class="lnb_more">
+            <div class="clickLeft">
+                <div class="service">
+                    <div class="mainFont"><a href="">도미노 서비스</a></div>
+                    <ul class="lnb">
+                        <li><a href="">매니아 혜택</a></li>
+                        <li><a href="">도미노 모멘트</a></li>
+                        <li><a href="">퀵오더</a></li>
+                        <li><a href="">단체주문 서비스</a></li>
+                    </ul>
+                </div>
+                <div class="customer">
+                    <div class="mainFont"><a href="">고객센터</a></div>
+                    <ul class="lnb">
+                        <li><a href="">자주하는 질문</a></li>
+                        <li><a href="">문의하기/칭찬</a></li>
+                    </ul>
+                </div>
+                <div class="introduce">
+                    <div class="mainFont"><a href="">회사소개</a></div>
+                    <ul class="lnb">
+                        <li><a href="">한국도미노피자</a></li>
+                        <li><a href="">광고갤러리</a></li>
+                        <li><a href="">사회공헌활동</a></li>
+                        <li><a href="">가맹점 모집</a></li>
+                        <li><a href="">인재채용</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clickRight">
+                <div class="notice">
+                    <div class="mainFont"><a href="">공지사항</a></div>
+                    <ul class="lnb">
+                        <li><a href="">-도미노뉴스</a></li>
+                        <li><a href="">-보도자료</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="w100 menu">
+        <div class="w1200 ">
+            <div class="menu_wrap">
+                <h2>고객센터</h2>
+                <ul class="menu_side_wrap">
+                    <li><a href="">홈</a></li>
+                    <li class="side_before"><a href="javascript:void(0);">메뉴</a></li>
+                    <li class="side_before" id="tab_name"><a href="">피자</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu_nav_wrap w1200">
+            <ul class="menu_nav">
+                <li class="tab_menu" data-text="피자" data-id="new">자주하는 질문</li>
+                <li class="menu_nav_before tab_menu " data-text="1인 메뉴" data-id="person">문의하기/칭찬</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="flex w1200 top">
+            <div class="qna_txt">
+                <p>도미노 피자에 대한 궁금증을 바로 확인하실 수 있습니다.</p>
+                <p>도미노 피자 고객만족센터 080-860-3082</p>
+            </div>
+            <div class="flex qna_search">
+                <select name="" id="" class="flex qna_select">제목
+                    <option value="">제목</option>
+                    <option value="">내용</option>
+                    <option value="">제목+내용</option>
+                </select>
+                <input type="text" class="search_txt">
+                <div class="qna_btn">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="flex qus_wrap w1200">
+            <div class="qna_tab" data-id="order">피자 주문하기</div>
+            <div class="qna_tab" data-id="orderCheck">주문확인</div>
+            <div class="qna_tab" data-id="takeOut">포장 주문</div>
+            <div class="qna_tab" data-id="coupon">할인/쿠폰</div>
+            <div class="qna_tab" data-id="gift">상품권/도미노콘/선물</div>
+            <div class="qna_tab" data-id="pay">도미노페이/퀵오더</div>
+            <div class="qna_tab" data-id="login">회원/로그인</div>
+            <div class="qna_tab" data-id="other">기타</div>
+        </div>
+    </section>
+    <section>
+        <div class="w1200 qna_wrap" id="oeder">
+            <a class="qus">예약 주문은 어디서 할 수 있나요?</a>
+            <div class="asw">
+                <div class="asw_txt">
+                    <p>예약 주문은 장바구니에서 설정이 가능합니다. 예약을 변경하거나 취소하는 경우 장바구니와 결제하기에서 가능합니다.</p>
+                </div>
+            </div>
+            <a class="qus">현금영수증 발급은 어떻게 할 수 있나요?</a>
+            <div class="asw">
+                <div class="asw_txt">
+                    <p>E쿠폰, 도미노콘, M12 모바일 기프트권을 사용하거나 도미노페이 계좌이체로 결제한 온라인 주문은 현금영수증이 자동 발급됩니다. <br>
+                        단, 지류상품권 사용 또는 현장현금결제 시에는 결제가 '완료'된 후 매장에서 수동으로 현금영수증 발급 처리해드립니다.<br>
+                        <br>
+                        ■ 현금영수증 발급받기<br>
+                        　- 주문시점: [주문/결제 페이지 > 현금영수증] 란에서 신청하여 발급 가능<br>
+                        <br>
+                        ■ 현금영수증 확인하기<br>
+                        - 경로 : [나의정보 > 주문내역 > 주문내역상세 > 현금영수증 조회 클릭]<br>
+                        <br>
+                        ■ 현금영수증 신청정보 관리하기<br>
+                        ※ 주문전 [나의정보 > 정보수정 > 현금영수증 관리]에서 '현금영수증 신청 정보' 입력이 가능합니다.<br>
+                        <br>
+                        ■ 기타사항<br>
+                        - 현금영수증 발행 대상이나 미신청한 경우에는 자진발급하여 발행처리해 드립니다.<br>
+                        - 자진발급분의 경우 현금영수증 식별번호가 010-0000-1234로 기재됩니다.<br>
+                        - 발행방법이 자진발급인 경우 국세청 사이트에서 자진발급분 사용자 등록을 하셔야만 소득공제 등 혜택을 받으실 수 있습니다.<br>
+                        - 현금영수증 발행내역은 국세청 사이트(http://hometax.go.kr)에서 조회가 가능합니다</p>
+                </div>
+            </div>
+            <a class="qus">도미노 페이가 무엇인가요?</a>
+            <div class="asw">
+                <div class="asw_txt">
+                    <p>도미노페이는 최초 한 번의 등록으로 빠르고 간편하게 결제를 할 수 있는 간편결제수단입니다.<br>
+                        도미노페이 등록 후 결제비밀번호 생략을 하시면 결제하기 버튼 클릭 시 즉시 결제가 가능합니다.<br>
+                        (단, 5만원 이상 결제 시에는 결제 비밀번호 입력 필수/계좌이체인 경우 금액 관계 없이 비밀번호 입력 필수)</p>
+                </div>
+            </div>
+            <a class="qus">퀵오더가 무엇인가요?</a>
+            <div class="asw">
+                <div class="asw_txt">
+                    <p>자주 이용하는 나만의 메뉴를 빠르게 주문하는 서비스입니다.<br>
+                        퀵오더 등록 가능한 제품에 한해서 퀵오더로 등록하신 후 사용해주세요<br></p>
+                </div>
+            </div>
+            <a class="qus">회원 가입 후 개명을 했는데 어떻게 하나요?</a>
+            <div class="asw">
+                <div class="asw_txt">
+                    <p>아이디나 비밀번호를 분실 하신 경우는 개명된 정보로 찾기가 불가능 하기 때문에 고객만족팀(080-860-3082)으로 연락 부탁드립니다. 개명 전 정보 확인 후 로그인이 가능하도록 도와드립니다.<br>
+                        로그인 후 나의정보>정보변경 페이지에서 본인인증을 다시 하면 개명된 정보를 업데이트 할 수 있습니다.<br></p>
+                </div>
+            </div>
+            <a class="qus">e쿠폰(쇼핑몰 쿠폰) 주문시 메뉴 변경은 불가능 한가요?</a>
+            <div class="asw">
+                <div class="asw_txt">
+                    <p>메뉴 변경이 가능합니다.(단, 일부 프로모션 상품에 메뉴 변경 불가로 기재된 쿠폰은 변경이 불가합니다.)
+                        <br>
+                        원하시는 피자를 담고 결제하기 화면에서 할인적용 > 상품권 및 쿠폰번호 입력> 'e-쿠폰(쇼핑몰쿠폰)' 을 선택하여 쿠폰번호를 입력하시면 할인이 적용됩니다.
+                        <br>
+                        e쿠폰 보다 가격이 높은 메뉴 주문 시에는 추가 금액을 지불하셔야 하며, 가격이 낮은 메뉴 주문할 경우에는 e쿠폰 사용이 불가합니다.
+                        <br>
+                        e쿠폰은 세트메뉴 주문 시 사용 불가하며 방문포장 할인 및 쿠폰 할인 등 다른 할인쿠폰과 중복하여 사용할 수 없습니다.</p>
+                </div>
+            </div>
+            <a class="qus">도미노콘을 선물 받았는데 어떻게 이용 하나요?</a>
+            <div class="asw">
+                <div class="asw_txt">
+                    <p>온라인 주문 시 이용 가능합니다.(전화주문 불가)<br>
+                        <br>
+                        원하시는 메뉴를 담고 결제하기 화면에서 할인적용>상품권 및 쿠폰번호 입력>"도미노콘(모바일상품권)"을 선택하여 쿠폰번호를 입력하시면 할인이 적용됩니다.<br>
+                        <br>
+                        1) 단품 도미노콘의 경우 명시된 피자 또는 동일 가격 피자 1판에 대해서 주문할 수 있습니다. 피자 외 다른 제품은 할인 되지 않습니다.<br>
+                        <br>
+                        2) 세트 도미노콘의 경우 메뉴 정가를 기준으로 할인 적용 되며, 피자 외 제품에 대해서도 금액 차감됩니다. 다만, 세트 구성 상품 유형에 맞게 주문하셔야 하며, 피자는 피자금액에서, 사이드디시는 사이드디시 금액에서 차감됩니다. 콜라는 다른음료로 변경할 수 없습니다.<br>
+                        <br>
+                        도미노콘 금액 보다 주문 금액이 낮은 낮은 경우에도 이용 가능하나, 잔액은 환불 불가합니다.<br>
+                        <br>
+                        ※ 타 할인과 중복할인은 불가합니다.(단, 사이드디시 반값은 동시 이용 가능)</p>
+                </div>
+            </div>
+            <a class="qus">주문한 메뉴를 변경하거나 취소해야 할 경우에는 어떻게 하나요?</a>
+            <div class="asw">
+                <div class="asw_txt">
+                    <p>주문 접수 후 바로 피자 메이킹이 이루어져 주문 변경이나 취소가 어렵습니다.<br>
+                        주문변경이나 취소는 반드시 해당 매장으로 전화하셔야 가능하며, 해당매장 전화번호는 주문내역 페이지나, 매장 검색(https://web.dominos.co.kr/branch)에서 가능합니다.<br>
+                        <br>
+                        매장에 전화하셔서 주문번호를 함께 말씀해 주시면 빠른 처리가 가능합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer_wrap">
+        <section>
+            <article class="f_one">
+                <div>
+                    <div class="logo_2"></div>
+                    <p>1577-3082</p>
+                </div>
+                <div class="KOR">
+                    <p>KOR</p>
+                    <p>∨</p>
+                </div>
+            </article>
+            <article class="f_two">
+                <ul>
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">개인정보처리방침</a></li>
+                    <li><a href="">위치기반서비스</a></li>
+                    <li><a href="">청소년보호방침</a></li>
+                    <li><a href="">고객센터</a></li>
+                    <li><a href="">인재채용</a></li>
+                    <li><a href="">가맹점모집</a></li>
+                    <li><a href="">단체주문</a></li>
+                </ul>
+                <article class="app_box">
+                    <p class="app">DOWNLOAD APP</p>
+                    <div class="icon_ios"></div>
+                    <div class="icon_andro"></div>
+                </article>
+            </article> 
+            <article class="footer_last">
+                <p>06223 서울특별시 강남구 역삼로25길 35(역삼동, 청오큐브타워) 청오디피케이㈜｜대표이사 : 오광현,김영훈</p>
+                <p>사업자 등록번호: 220-81-03371｜통신판매업신고: 강남 5064호｜개인정보 보호책임자 : 윤여진｜민원 책임자 : 이열우</p>
+                <p>문의 : webmaster@dominos.co.kr</p>
+                <p>Copyright ⓒ Domino’s Pizza. All rights reserved.</p>
+                <div>
+                    <p>청오디피케이㈜의 사전 서면동의 없이 도미노피자 사이트(PC, 모바일, 앱)의 일체의 정보, 콘텐츠 및 UI 등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.</p>
+                    <div class="sns_box">
+                        <p>도미노피자에서 판매되는 모든 상품은 청오디피케이㈜에서 책임지고 있습니다.</p>
+                        <ul>
+                            <li class="blog"><a href=""></a></li>
+                            <li class="insta"><a href=""></a></li>
+                            <li class="facebook"><a href="" ></a></li>
+                            <li class="youtube"><a href="" ></a></li>
+                            <li class="twitter"><a href=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="gray">
+            <article>
+                <div class="one">
+                    <div></div>
+                    <p>식품안전 <br> 경영시스템 인증</p>
+                </div>
+                <div class="two">
+                    <div></div>
+                    <p>지식경제부 <br> 우수디자인 선정</p>
+                </div>
+                <div class="three_2">
+                    <div></div>
+                    <p>2022년 고객이 가장 추천하는 기업 <br>
+                        피자전문점 부문 10년 연속 1위
+                    </p>
+                </div>
+                <div class="four">
+                    <div></div>
+                    <p>2022년 한국산업 고객만족도 <br>
+                        피자전문점 부문 8년 연속 1위
+                    </p>
+                </div>
+                <div class="five">
+                    <div></div>
+                    <p>2022 프리미엄 브랜드지수 <br>
+                    피자전문점 부문 7년 연속 1위 수상
+                    </p>
+                </div>
+                <div class="six">
+                    <div></div>
+                    <p>대학생 1000명이 선택한 <br>
+                    2019 올해의 핫 브랜드 캠퍼스 잡앤조이</p>
+                </div>
+            </article>
+        </section>
+    </footer>
+    <script src="./js/domino.js"></script>
+    <script src="./js/qna.js"></script>
+</body>
+</html>
